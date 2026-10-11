@@ -1,0 +1,5 @@
+body{margin:0;font-family:Roboto,sans-serif;transition:background .25s,color .25s}
+*{box-sizing:border-box}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.page{animation:fadeIn .35s ease}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
